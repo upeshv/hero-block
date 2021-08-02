@@ -1,0 +1,147 @@
+.hero {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  background-color: var(--gold);
+
+  & .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  
+    & .hero-wrapper {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding: 0 0 6rem 0;
+      color: var(--white);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top center;
+
+      @media (--sm) {
+        flex-direction: column;
+      }
+
+      @media (--md) {
+        background-position: top left;
+        flex-direction: row;
+      }
+
+      @media (--ml) {
+        background-position: bottom;
+        flex-direction: row;
+      }
+
+      &__block {
+        width: 100%;
+        margin: 0 auto;
+        text-align: left;
+
+        @media (--sm) {
+          width: 75%;
+        }
+
+        @media (--md) {
+          width: 50%;
+        }
+
+        & h1 {
+          padding: 2.35rem 0 0 0;
+          font-size: 2.2rem;
+          line-height: 2.5rem;
+          width: 90%;
+          text-align: center;
+          margin: 0 auto;
+
+          @media (--sm) {
+            padding: 3.3rem 0 0 0;
+            font-size: 2.4rem;
+            line-height: 2.5rem;
+            width: 70%;
+            text-align: center;
+            margin: 0 auto;
+          }
+
+          @media (--md) {
+            padding: 8.4rem 0 0 3.75rem;
+            font-size: 3.8rem;
+            line-height: 4.1rem;
+            width: 90%;
+            text-align: left;
+          }
+
+          @media (--l) {
+            padding: 7.5rem 0 0 10rem;
+            font-size: 4.6rem;
+            line-height: 4.9rem;
+          }
+        }
+
+        & p {
+          width: 88%;
+          padding: 0.2rem 0 0 0;
+          line-height: 1.5rem;
+          font-size: 0.85rem;
+          text-align: center;
+          margin: 0 auto;
+
+          @media (--sm) {
+            width: 100%;
+            padding: 0.85rem 0 0 0;
+            line-height: 1.5rem;
+            font-size: 0.85rem;
+            text-align: center;
+            margin: 0;
+          }
+
+          @media (--md) {
+            width: 90%;
+            padding: 1rem 0 0 3.75rem;
+            line-height: 1.4rem;
+            font-size: 0.95rem;
+            text-align: left;
+          }
+
+          @media (--l) {
+            width: 65%;
+            padding: 1rem 0 0 10rem;
+            line-height: 1.61rem;
+            font-size: 1rem;
+          }
+        }
+
+        & .post__image {
+          width: 11.2rem;
+          height: 23.7rem;
+          padding: 1.25rem 0 0 0;
+          margin: 0 auto;
+
+          @media (--sm) {
+            width: 13rem;
+            height: 27.7rem;
+            padding: 1.41rem 0 0 0;
+            margin: 0 auto;
+          }
+
+          @media (--md) {
+            width: 15.7rem;
+            height: 33.7rem;
+            padding: 5rem 0 0 6.4rem;
+            margin: 0;
+          }
+
+          @media (--l) {
+            width: 20.3rem;
+            height: 43.3rem;
+            padding: 3.35rem 0 0 9.7rem;
+          }
+        }
+      }
+    }
+  }
+}
