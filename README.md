@@ -10,15 +10,15 @@ Below are the Screenshot for demo purpose.
 
 1. ACF Screenshot.
 
-  ![Screenshot](https://github.com/upeshv/gutenberg-custom-block/blob/master/demo-images/ACF.png?raw=true)
+  ![Screenshot](https://github.com/upeshv/hero-block/blob/master/demo-images/ACF.png?raw=true)
 
 2. Backend Screenshot.
 
-  ![Screenshot](https://github.com/upeshv/gutenberg-custom-block/blob/master/demo-images/backend.png?raw=true)
+  ![Screenshot](https://github.com/upeshv/hero-block/blob/master/demo-images/backend.png?raw=true)
 
 3. Frontend Screenshot.
 
-  ![Screenshot](https://github.com/upeshv/gutenberg-custom-block/blob/master/demo-images/frontend.png?raw=true)
+  ![Screenshot](https://github.com/upeshv/hero-block/blob/master/demo-images/frontend.png?raw=true)
 
 
 ## Compatibility and Security
